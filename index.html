@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Hangman</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Rye&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <center>
+      <div class = "jumbotron" id="jumboplay">
+        <div class = "container"></div>
+          <h1>Hipster Hangman</h1>
+          <p>You've probably never heard of it.</p>
+        </div>
+      </div>
+      
+      <div class = "container" id = "bodywrap">
+        <div class = "row">
+      
+          <div class="col-md-4" id="imageholder">
+            <img id ="hangmanimage">
+          </div>
+          
+          <div class="col-md-8" id="mainBody">
+            <p>Type a letter to guess.</p>
+            <div id="mysteryWord"></div>
+              <p>Lives Left: <span id="guessesLeft"></span></p>
+              <p>Already Guessed:   <br><div id="alreadyGuessed"></div></p>
+              <p>Wins: <span id="wins"></span></p>
+          </div>
+      
+        </div>
+      </div>
+      <br><br>
+          <div>
+          <iframe id = "song" src="https://embed.spotify.com/?uri=spotify:track:44Ljlpy44mHvLJxcYUvTK0" width="700px;" height="80px" frameborder="0" allowtransparency="true"></iframe>
+          </div><br><br>
+    <script src="assets/javascript/game.js"></script>
+  </center>
+  </body>
+</html>

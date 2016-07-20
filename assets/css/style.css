@@ -1,0 +1,76 @@
+body {
+  background-color: gray;
+  
+}
+
+.jumbotron {
+background-image: url("../images/hip.png");
+font-family: 'Rye', cursive;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p, #alreadyGuessed {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+.jumbotron p {
+  font-size: 30px;
+}
+
+#bodywrap {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #d3d3d3;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: white 2px solid;
+  border-radius: 20px;
+}
+
+#hangmanimage {
+  height: 200px;
+  width: 150px;
+  margin-right: 60px;
+}
+
+#mysteryWord {
+  font-family: 'Rye', cursive;
+  letter-spacing: 5px; /* Spacing between letters */
+  font-size: xx-large;
+  padding: 10px;
+}
+
+#alreadyGuessed {
+  border: gray 1px solid;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  line-height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#song {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 710px) {
+    #bodywrap {
+      width: 90%;
+      
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #imageholder {
+      padding-top: 60px;
+    }
+      
+    }
